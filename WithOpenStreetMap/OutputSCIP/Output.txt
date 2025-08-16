@@ -509,6 +509,6 @@ Performance relative to bounds:
   Efficiency: 69.0% of maximum possible
   Fairness: 99.8% of best possible fairness
 
-⏱️  Total execution time: 18.4550 seconds
+⏱️  Total execution time: 17.6653 seconds
 
 ✅ Min-Max Scalarization Analysis Complete!

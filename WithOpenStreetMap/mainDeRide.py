@@ -75,7 +75,7 @@ class EligibilityRiderMatrix:
             output_file.write(f"##### Driver {driver.id}: ##### \n")
             shortest_path, sp_length = self.shortest_path_distance(driver.source, driver.destination, output_file)
             t = driver.threshold
-            radius = 0
+            radius = 200
             if t == 0:
             
                 nodes_within_circle_of_shortest_path_nodes = self.find_nodes_within_threshold(shortest_path, radius)
@@ -171,7 +171,7 @@ class EligibilityRiderMatrix:
 
             if not DP_assigned[driver.id]['driver_path']:
                 
-                radius = 0
+                radius = 200
                 
                 path, path_nodes = None, None
                 
